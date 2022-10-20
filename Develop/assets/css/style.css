@@ -13,6 +13,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /*added overflow-x to keep nav links inside header on overflow*/
+    overflow-x: hidden;
 }
 
 .header h1 {
@@ -24,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
-}
+}    
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -84,13 +86,14 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    overflow-x: hidden;
 }
 
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*Combined these 3 classes into .benefit
+/*Combined these 3 unique classes into .benefit
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -155,7 +158,9 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;  
+    color: #ffffff;
+    /*added overflow-x so scroll bar would appear instead of text overflowing on small resize*/
+    overflow-x: hidden;
 }
 /*Combined these 3 classes into .catagories
 .search-engine-optimization {
@@ -219,13 +224,13 @@ p {
 }
 */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
