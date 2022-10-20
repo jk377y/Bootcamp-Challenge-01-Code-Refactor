@@ -90,18 +90,19 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 97fc86d222febbc77dd68fc439df497cc137b046
 /*Combined these 3 classes into .benefit
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -112,18 +113,19 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 97fc86d222febbc77dd68fc439df497cc137b046
 /*Combined these 3 unique h3 classes into .benefit h3
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -135,7 +137,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 97fc86d222febbc77dd68fc439df497cc137b046
 /*Combined these 3 image parameters into .benefit img
 .benefit-lead img {
     display: block;
@@ -156,15 +161,23 @@ p {
 }
 */
 
+.catagories {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;  
+}
+/*Combined these 3 classes into .catagories
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff;    
 }
-
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -173,7 +186,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -182,11 +194,15 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
+.catagories img {
+    max-height: 200px;
+}
+/*Consolidated these 3 image stylings into .catagories img
 .search-engine-optimization img {
     max-height: 200px;
 }
-
 .online-reputation-management img {
     max-height: 200px;
 }
@@ -194,21 +210,26 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
+.content div h2 {
+    margin-bottom: 20px;
+    font-size: 36px; 
+}
+/*Combined these 3 h2 elements into .content div h2
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
 .footer {
     padding: 30px;
