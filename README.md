@@ -22,7 +22,7 @@ No installation required.
 
 ## Usage
 
-This webpage is to be viewed at https://placeholder.com 
+This webpage is to be viewed at https://jk377y.github.io/Challenge-01/ 
 ![alt text](./Develop/assets/images/preview-demo.png)
 
 
