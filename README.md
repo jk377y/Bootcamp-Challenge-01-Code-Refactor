@@ -24,7 +24,7 @@ No installation required.
 
 This webpage is to be viewed at https://jk377y.github.io/Challenge-01/ 
 
-![screenshot of the homepage](./assets/images/preview-demo.png)
+![screenshot of the homepage](./Develop/assets/images/preview-demo.png)
 
 
 ## Credits
